@@ -1,0 +1,169 @@
+@import url(reset.scss);
+@import url(variables.scss);
+.header {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+  color: #FFF;
+}
+
+.navList {
+  display: flex;
+  gap: 4rem;
+  row-gap: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.head-2-text-two-img img {
+  width: 100%;
+}
+
+.img-1 {
+  margin-top: -80px;
+  height: 100vh;
+}
+
+.aa {
+  height: 600px;
+}
+
+.head-2-text {
+  background-color: #fff;
+  margin-top: -35px;
+  border-radius: 38px;
+  padding: 3rem;
+  padding-left: 86px;
+  padding-right: 115px;
+}
+
+.cont-text {
+  margin-top: 1rem;
+  margin-left: 10px;
+  color: #333;
+  font-family: San Francisco;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 95%; /* 22.8px */
+}
+
+.cont-head {
+  color: #333;
+  font-family: San Francisco;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 95%; /* 45.6px */
+  text-transform: capitalize;
+}
+
+.head-img-h3 {
+  margin-top: 8rem;
+  margin-left: 7rem;
+  color: #fff;
+  font-family: San Francisco;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 82.8px */
+  text-transform: capitalize;
+}
+
+.head-img-h4 {
+  color: #FFF;
+  margin-left: 7rem;
+  font-family: San Francisco;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  text-transform: capitalize;
+}
+
+.svs {
+  margin-bottom: 10px;
+}
+
+.head-2-textOne {
+  color: #333;
+  font-family: San Francisco;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%; /* 15.2px */
+}
+
+.head-2-textTwo {
+  color: #333;
+  font-family: San Francisco;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 40px */
+}
+
+.head-2-textThree {
+  color: #11A3FF;
+  font-family: San Francisco;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.search-box {
+  font-family: "Candara", sans-serif;
+  background: #333A45;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 40px;
+  box-shadow: 0 0 25px 0 rgba(51, 58, 69, 0.4);
+}
+
+.search-box input {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  width: 0px;
+  transition: all 0.8s;
+}
+
+.search-box:hover input {
+  width: 210px;
+  padding: 0 6px;
+}
+
+.search-box input:focus {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-btn {
+  border: none;
+  background: none;
+  outline: none;
+  width: 26px;
+  margin-top: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn i {
+  z-index: 1;
+  background: #fff;
+  font-size: 22px;
+  color: #333A45;
+  padding: 12px;
+  border-radius: 50px;
+  box-shadow: 0 0 25px 0 rgba(0, 184, 148, 0.4);
+}/*# sourceMappingURL=style.css.map */
