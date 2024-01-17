@@ -40,4 +40,11 @@
   .cont-head {
     font-size: 41px;
   }
+  .head-5-cardOne-img {
+    width: 100%;
+    height: 500px;
+  }
+  .head-5-cardOneBody {
+    width: 100%;
+  }
 }/*# sourceMappingURL=variables.css.map */

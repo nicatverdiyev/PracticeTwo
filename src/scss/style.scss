@@ -28,6 +28,13 @@
 .aa{
     height: 600px;
 }
+// All Section Style
+.section{
+
+    margin-top: 3rem;
+}
+// All Section Style
+
 .head-2-text{
     background-color: #fff;
     margin-top: -35px;
@@ -51,6 +58,7 @@ font-weight: 600;
 line-height: 95%; /* 22.8px */
 }
 .cont-head{
+    margin-bottom: 2rem;
     color: #333;
 font-family: San Francisco;
 font-size: 48px;
@@ -163,4 +171,243 @@ line-height: normal;
     padding: 12px;
     border-radius: 50px;
     box-shadow: 0 0 25px 0 rgba(0, 184, 148, 0.4);
+  }
+
+  .head-3-icons{
+    display: grid;
+  }
+  .head-3-iconOne{
+    margin-left: 1.8rem;
+  }
+  .head-3-iconTwo{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .head-3-iconThree{
+    margin-left: 2rem;
+  }
+  .head-3-text-3{
+    color: #11A3FF;
+font-family: San Francisco;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 2rem;
+  }
+  .head-3-text-1{
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+font-family: San Francisco;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 95%; /* 45.6px */
+  }
+  .head-3-text-2{
+    color: #333;
+    margin-bottom: 3rem;
+font-family: San Francisco;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 34.8px */
+  }
+  .head-3-text-4{
+    color: #333;
+font-family: San Francisco;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+  }
+
+//   ....
+
+  .head-3-textTwo-3{
+    color: #11A3FF;
+font-family: San Francisco;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 2rem;
+  }
+  .head-3-textTwo-1{
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+font-family: San Francisco;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 95%; /* 45.6px */
+  }
+  .head-3-textTwo-2{
+    color: #333;
+    margin-bottom: 3rem;
+font-family: San Francisco;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 34.8px */
+  }
+  .head-3-textTwo-4{
+    color: #333;
+font-family: San Francisco;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+  }
+  .head-3-textTwo-3-3{
+    margin-top: 17.3rem;
+  }
+  
+//   --------HEAD-4---CARDS----
+
+
+.head-4-cardOne {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
+  }
+  .head-4-cardOne-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .head-4-cardOneBody {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.4s;
+  }
+  .head-4-cardOneTitle {
+    padding: 26px;
+    text-align: justify;
+  }
+  .head-4-cardOne:hover .head-4-cardOneBody {
+    right: 0;
+  }
+  .head-4-tel{
+    color: #fff;
+  }
+  .head-4-headText {
+
+    margin-bottom: 1rem;
+
+    &   h3{
+        color: #333;
+    
+    font-family: San Francisco;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 95%; /* 45.6px */
+      }
+
+  }
+
+//   --------HEAD-5-SECTİON--CARD----
+
+
+
+  .head-5-cardOne {
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+  
+    border: 8px solid #fff;
+    position: relative;
+  }
+  .head-5-cardOne-img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 99999;
+  }
+  .head-5-cardOneBody {
+    width: 450px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.4s;
+    border-radius: 25px;
+    background: #070707;
+    padding: 30px;
+  }
+  .head-5-cardOneTitle {
+    margin-top: 1rem;
+    padding: 23px;
+    color: #FFF;
+
+font-family: San Francisco;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 115%;
+    // text-align: justify;
+  }
+  .head-5-cardOne:hover .head-5-cardOneBody {
+    left: 560px;
+  }
+  .head-5-cardOneTitleSp{
+    color: #11A3FF;
+
+font-family: San Francisco;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 115%; /* 55.2px */
+  }
+  .head-5-cardOneTitleP{
+    color: rgba(255, 255, 255, 0.80);
+font-family: San Francisco;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 30px */
+  }
+  .head-5-cardOne-little-icon{
+    color: #11A3FF;
+    padding: 23px;
+
+font-family: San Francisco;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -28px;
+  }
+  .head-5-cardOne-little-text{
+    color: #11A3FF;
   }
