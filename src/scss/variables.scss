@@ -1,4 +1,8 @@
 @media screen and (max-width:992px) {
+    body{
+        text-align: center;
+    }
+
     .navMenu{
         display: none;
     }
@@ -38,6 +42,19 @@
         padding-left: 16px;
         padding-right: 5px;
     }
+    .head-3-textOne{
+        .head-3-text-3,.head-3-text-3{
+            text-align: center;
+        }
+    }
+    .head-3-textTwo{
+        .head-3-textTwo-3,.head-3-textTwo-3{
+            text-align: center;
+        }
+    }
+    .head-4-headText{
+        text-align: center;
+    }
     .cont-head{
         font-size: 41px;
     }
@@ -58,5 +75,22 @@
         left: 0;
         top: 570px;
       }
+
+     
+      .head-5{
+        display: none;
+      }
+      .head-3-icons{
+        display: none;
+      }
+      .head-7-main{
+        height: 300px;
+      }
    
+}
+@media screen and (max-width:768px) {
+    .searchh.active {
+        width: 280px;
+        margin-left: 25px;
+      }
 }
