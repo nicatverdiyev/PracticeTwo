@@ -554,6 +554,7 @@ line-height: 150%; /* 24px */
 .footer{
   margin-top: -61px;
   background-color: black;
+  padding: 20px;
 
   & .footerHead-textOne{
     color: #FFF;
@@ -572,5 +573,20 @@ line-height: 150%; /* 24px */
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
+}
+.footer-nav{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-nav-text a{
+  color: #FFF;
+font-family: "San Francisco";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-nav-textOne{
+  margin-right: 5px;
 }
 
