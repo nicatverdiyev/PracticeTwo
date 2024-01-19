@@ -45,6 +45,14 @@
     height: 500px;
   }
   .head-5-cardOneBody {
+    height: 600px;
     width: 100%;
+  }
+  .head-5-cardOne {
+    width: 100%;
+  }
+  .head-5-cardOne:hover .head-5-cardOneBody {
+    left: 0;
+    top: 570px;
   }
 }/*# sourceMappingURL=variables.css.map */

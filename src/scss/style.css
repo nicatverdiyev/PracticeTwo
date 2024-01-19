@@ -339,7 +339,6 @@
 
 .head-5-cardOne {
   width: 320px;
-  height: 500px;
   border-radius: 20px;
   border: 8px solid #fff;
   position: relative;
@@ -351,7 +350,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
-  position: absolute;
+  position: relative;
   z-index: 99999;
 }
 
@@ -420,4 +419,50 @@
 
 .head-5-cardOne-little-text {
   color: #11A3FF;
+}
+
+.head-6-text-1 {
+  color: #333;
+  font-family: "San Francisco";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%; /* 55.2px */
+}
+
+.head-6-text-2 {
+  color: #3A9E0B;
+  font-family: "San Francisco";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%;
+}
+
+.head-6-img {
+  width: 339px;
+  height: 517px;
+}
+
+.head-6-image {
+  width: 100%;
+}
+
+.head-6-box-1 {
+  display: flex;
+  justify-content: space-between;
+  height: 340px;
+}
+
+.head-6-box-2-icons {
+  margin-bottom: 1rem;
+}
+
+.head-6-box-2-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "San Francisco";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
 }/*# sourceMappingURL=style.css.map */

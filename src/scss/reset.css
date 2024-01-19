@@ -23,4 +23,9 @@ a {
 .head-5-cardOne-little-icon p {
   margin-top: 0;
   margin-bottom: 0 !important;
+}
+
+hr {
+  border-top: 3px solid black !important;
+  margin: 3rem 0 !important;
 }/*# sourceMappingURL=reset.css.map */
