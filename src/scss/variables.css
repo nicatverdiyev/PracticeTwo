@@ -144,8 +144,11 @@
   .nav-li {
     padding-left: 20px;
   }
-  .sunroom-head-2-box {
+  .sunroom-head-2-box, .sunroom-head-2-boxTwo {
     gap: 7rem;
     padding: 60px 30px;
+  }
+  .villages .villagesBoxTextOne {
+    width: 63%;
   }
 }/*# sourceMappingURL=variables.css.map */

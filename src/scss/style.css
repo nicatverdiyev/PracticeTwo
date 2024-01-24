@@ -126,11 +126,11 @@ header .search {
 }
 
 input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.6862745098);
+  color: rgba(15, 2, 2, 0.6862745098);
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.6862745098);
+  color: rgba(15, 2, 2, 0.6862745098);
 }
 
 .swiper {
@@ -849,11 +849,18 @@ input::placeholder {
   top: 5rem;
 }
 
+.sunroom-head-2-boxTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding: 60px 80px;
+}
+
 .sunroom-head-2-box {
   display: flex;
   flex-direction: column;
   gap: 7rem;
-  padding: 60px 120px;
+  padding: 60px 80px;
 }
 
 .box-text-1 {
@@ -887,17 +894,24 @@ input::placeholder {
   padding-top: 1rem;
 }
 
+.sunroom-head-3 {
+  margin-bottom: 6rem;
+  position: relative;
+  top: 55px;
+}
+
 .villages .villagesBoxText {
   padding: 20px;
 }
 .villages img {
   width: 100%;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .villages .villagesBoxTextOne {
   display: flex;
-  width: 140px;
+  width: 60%;
   font-size: 1rem;
   background: #F5F5F5;
   border-radius: 100px;

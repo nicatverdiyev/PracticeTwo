@@ -74,10 +74,10 @@ let products = [
 ]
 
 
-const productsElem = document.querySelector(".villages");
+const productsElem = document.querySelector(".villages .row");
 
 products.forEach(item => productsElem.innerHTML += `
-<div class="row">
+
             <div class="col-lg-4">
               <div class="villagesBox">
                 <img
@@ -123,7 +123,7 @@ products.forEach(item => productsElem.innerHTML += `
                         </clipPath>
                       </defs>
                     </svg>
-                    <p></p>
+                    <p>${item.place}</p>
                   </div>
                   <div class="villagesBoxTextTwo">
                     <svg
@@ -176,218 +176,12 @@ products.forEach(item => productsElem.innerHTML += `
                         </clipPath>
                       </defs>
                     </svg>
-                    <p></p>
+                    <p>${item.brand}</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="villagesBox">
-                <img
-                  src="${item.thumbnail}"
-                  alt=""
-                />
-                <div class="villagesBoxText">
-                  <h3></h3>
-                  <div class="villagesBoxTextOne">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <g clip-path="url(#clip0_72_10940)">
-                        <path
-                          d="M12 12.8572C15.3137 12.8572 18 10.1709 18 6.85718C18 3.54347 15.3137 0.857178 12 0.857178C8.68629 0.857178 6 3.54347 6 6.85718C6 10.1709 8.68629 12.8572 12 12.8572Z"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M12 12.8572V23.1429"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M9.42773 23.1429H14.5706"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_72_10940">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <p></p>
-                  </div>
-                  <div class="villagesBoxTextTwo">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <g clip-path="url(#clip0_72_10947)">
-                        <path
-                          d="M14.5717 23.1429H0.857422V6.85718L7.71456 0.857178L14.5717 6.85718V23.1429Z"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M14.5723 23.1429H23.1437V11.1429H14.5723"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M7.71484 23.1429V19.7144"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M5.14258 14.5714H10.2854"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M5.14258 9.42859H10.2854"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_72_10947">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="villagesBox">
-                <img
-                  src="${item.thumbnail}"
-                  alt=""
-                />
-                <div class="villagesBoxText">
-                  <h3></h3>
-                  <div class="villagesBoxTextOne">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <g clip-path="url(#clip0_72_10940)">
-                        <path
-                          d="M12 12.8572C15.3137 12.8572 18 10.1709 18 6.85718C18 3.54347 15.3137 0.857178 12 0.857178C8.68629 0.857178 6 3.54347 6 6.85718C6 10.1709 8.68629 12.8572 12 12.8572Z"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M12 12.8572V23.1429"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M9.42773 23.1429H14.5706"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_72_10940">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <p></p>
-                  </div>
-                  <div class="villagesBoxTextTwo">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <g clip-path="url(#clip0_72_10947)">
-                        <path
-                          d="M14.5717 23.1429H0.857422V6.85718L7.71456 0.857178L14.5717 6.85718V23.1429Z"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M14.5723 23.1429H23.1437V11.1429H14.5723"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M7.71484 23.1429V19.7144"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M5.14258 14.5714H10.2854"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M5.14258 9.42859H10.2854"
-                          stroke="#000001"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_72_10947">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            
 
 `
     
