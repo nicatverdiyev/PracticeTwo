@@ -1,7 +1,8 @@
 @import url(reset.scss);
 @import url(variables.scss);
+// --------HEADER--SECTİON----START---
 
-header {
+.header {
   z-index: 999999;
   position: fixed;
   top: 0;
