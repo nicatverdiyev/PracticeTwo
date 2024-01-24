@@ -87,7 +87,7 @@ header .search {
   border: none;
   outline: none;
   height: 50px;
-  color: #333;
+  color: #fff;
   font-size: 1.25em;
   background-color: #78828B;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -133,8 +133,64 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.6862745098);
 }
 
-.head-2-text-two-img img {
+.swiper {
   width: 100%;
+  height: 100%;
+  border-radius: 27px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  color: #333;
+  font-family: "San Francisco";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 95%; /* 22.8px */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.cardOne-content {
+  display: flex;
+  padding: 10px 0;
 }
 
 .img-1 {
