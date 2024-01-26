@@ -952,3 +952,121 @@ margin-left: 1rem;
     
   }
 }
+// ------SUNROOM.HTML-----END----
+
+// -------PROJECTDETAİL.HTML-----START---
+
+.project-head-1{
+  position: relative;
+  top: 80px;
+
+  & h2{
+    color: #333;
+
+font-family: "San Francisco";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 115%; /* 82.8px */
+text-transform: capitalize;
+  }
+}
+.villagess{
+
+    margin-left: 16rem;
+  & .villagesBoxText{
+    padding: 20px;
+
+    & h3{
+      font-size: 18px;
+      margin-left: 3px;
+    }
+  }
+
+  & img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  & .villagesBoxTextOnes{
+    display: flex;
+    width: 55%;
+    font-size: 1rem;
+    background: #F5F5F5;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    & p{
+      margin-bottom: 0;
+      margin-left: 10px;
+
+    }
+  }
+  & .villagesBoxTextTwos{
+    display: flex;
+    width: 280px;
+    font-size: 1rem;
+    background: #F5F5F5;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    & p{
+      margin-bottom: 0;
+      margin-left: 10px;
+    }
+  }
+
+}
+
+.project-head-2{
+  position: relative;
+  top: 40px;
+
+  & p{
+    color: #333;
+
+font-family: "San Francisco";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 40px */
+  }
+}
+.project-head-3-slide{
+  
+  position: relative;
+  top: 60px;
+  & img{
+    // width: 100%;
+    border-radius: 25px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    // height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// -------PROJECTDETAİL.HTML-----END---

@@ -180,7 +180,7 @@ products.forEach(item => productsElem.innerHTML += `
 
                   </div>
                   <div class="buttonJs">
-                  <button><a href="">Find Out More</a>
+                  <button><a href="./projectdetail.html">Find Out More</a>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
   <g clip-path="url(#clip0_72_10959)">
     <path d="M9.78355 6.5576L3.84115 12.5L2.22115 10.88L6.59875 6.5L2.21875 2.12L3.84115 0.5L9.78355 6.4424L9.72595 6.5L9.78355 6.5576Z" fill="#333333"/>
