@@ -903,6 +903,10 @@ input::placeholder {
 .villages .villagesBoxText {
   padding: 20px;
 }
+.villages .villagesBoxText h3 {
+  font-size: 18px;
+  margin-left: 3px;
+}
 .villages img {
   width: 100%;
   height: 300px;
@@ -934,4 +938,21 @@ input::placeholder {
 .villages .villagesBoxTextTwo p {
   margin-bottom: 0;
   margin-left: 10px;
+}
+
+.buttonJs {
+  width: 200px;
+}
+.buttonJs button {
+  background: transparent;
+  border: 1px solid #333333;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttonJs button a {
+  color: #333333;
 }/*# sourceMappingURL=style.css.map */

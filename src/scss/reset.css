@@ -17,6 +17,11 @@ ul {
 }
 
 a {
+  color: inherit;
+  text-decoration: inherit; /* no underline */
+}
+
+a {
   text-decoration: none !important;
 }
 

@@ -888,10 +888,16 @@ margin-left: 1rem;
   position: relative;
   top: 55px;
 }
+
 .villages{
 
   & .villagesBoxText{
     padding: 20px;
+
+    & h3{
+      font-size: 18px;
+      margin-left: 3px;
+    }
   }
 
   & img{
@@ -927,4 +933,22 @@ margin-left: 1rem;
     }
   }
 
+}
+.buttonJs{
+    width: 200px;
+  & button{
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    & a{
+      color: #333333;
+    }
+    
+  }
 }
