@@ -1069,4 +1069,20 @@ line-height: 125%; /* 40px */
   }
 }
 
+.project-head-4{
+  position: relative;
+  top: 80px;
+
+  & .project-head-4-box{
+    border-radius: 30px;
+border: 1px solid #BABABA;
+padding: 20px;
+height: 100%;
+
+    & h4{
+      margin-bottom: 25px;
+    }
+  }
+}
+
 // -------PROJECTDETAİL.HTML-----END---
