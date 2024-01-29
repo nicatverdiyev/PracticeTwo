@@ -335,3 +335,6 @@ products.forEach(item => productsElem.innerHTML += `
     });
   // -----FİLTERED FUNCTİON----END---
 
+
+
+              
