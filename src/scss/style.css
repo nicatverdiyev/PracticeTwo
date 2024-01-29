@@ -727,6 +727,21 @@ input::placeholder {
   cursor: pointer;
 }
 
+.footerr {
+  margin-top: 50px;
+  background-color: black;
+  padding: 20px;
+}
+.footerr .footerHead-textOne {
+  color: #FFF;
+  margin-top: 1rem;
+  font-family: "San Francisco";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%; /* 15.2px */
+}
+
 .footer {
   margin-top: -61px;
   background-color: black;
@@ -1119,4 +1134,9 @@ input::placeholder {
 .project-head-5 {
   position: relative;
   top: 80px;
+  bottom: 20px;
+}
+
+.proje-footer {
+  margin-top: -10px;
 }/*# sourceMappingURL=style.css.map */
