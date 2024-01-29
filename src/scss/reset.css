@@ -43,4 +43,8 @@ hr {
 .hr-2-1 {
   border-top: 3px solid white !important;
   margin: 3rem 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
 }/*# sourceMappingURL=reset.css.map */

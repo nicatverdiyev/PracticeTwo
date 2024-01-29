@@ -8,7 +8,7 @@ let productse = [
     },
     {
         "id":2,
-        "title":"Contemporary house with swimming pool",
+        "title":"Contemporary house",
         "place":"Portorose - Slovenia",
         "brand":"Bioclimatic Pergolas",
         "thumbnail":"https://juliasbali.com/wp-content/uploads/2016/07/villa-tjitrap-garden-view-entertainment-room.jpg"
@@ -63,8 +63,8 @@ src="${item.thumbnail}"
 alt=""
 />
 <div class="villagesBoxText">
-<h3 style="display: flex;">${item.title}</h3>
-<div class="villagesBoxTextOne"  style="display: flex; width: 60%; background: #F5F5F5;">
+<h3 style="display: flex;  margin-left: 16px;">${item.title}</h3>
+<div class="villagesBoxTextOne"  style="display: flex; width: 60%; background: #F5F5F5; border-radius: 100px; padding: 10px; margin-left: 10px; margin-bottom: 10px;">
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
@@ -103,7 +103,7 @@ alt=""
 </svg>
 <p>${item.place}</p>
 </div>
-<div class="villagesBoxTextTwo"  style="display: flex;">
+<div class="villagesBoxTextTwo"  style="display: flex;  width: 280px; background: #F5F5F5; border-radius: 100px; padding: 10px; margin-left: 10px;  margin-bottom: 10px;">
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
@@ -154,10 +154,10 @@ alt=""
     </clipPath>
   </defs>
 </svg>
-<p>${item.brand}</p>
+<p style="margin-left:4px;">${item.brand}</p>
 
 </div>
-<div class="buttonJs">
+<div class="buttonJs" style =" margin-left: 10px;">
 <button><a href="./projectdetail.html">Find Out More</a>
 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
 <g clip-path="url(#clip0_72_10959)">
@@ -181,35 +181,35 @@ alt=""
 `);
 
 
-var swiper = new Swiper(".slider-content", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    // slidesPerGroup: 3,
-    loop: true,
-    // loopFillGroupWithBlank: true,
-    centerSlide: "true",
-    fade: "true",
-    grapCursor: "true",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+// var swiper = new Swiper(".slider-content", {
+//     slidesPerView: 1,
+//     spaceBetween: 20,
+//     // slidesPerGroup: 3,
+//     loop: true,
+//     // loopFillGroupWithBlank: true,
+//     centerSlide: "true",
+//     fade: "true",
+//     grapCursor: "true",
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//       dynamicBullets: true,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
   
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      520: {
-        slidesPerView: 2,
-      },
-      950: {
-        slidesPerView: 3,
-      },
-    },
-  });
+//     breakpoints: {
+//       0: {
+//         slidesPerView: 1,
+//       },
+//       520: {
+//         slidesPerView: 2,
+//       },
+//       950: {
+//         slidesPerView: 3,
+//       },
+//     },
+//   });
   
