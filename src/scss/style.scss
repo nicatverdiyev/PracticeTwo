@@ -60,10 +60,13 @@ header .search {
   z-index: 10;
   cursor: pointer;
 }
-
+body{
+  width: 100%;
+}
 .searchBox {
   position: absolute;
-  right: -100%;
+   right: -100%;
+   display: none;
   width: 100%;
   height: 100%;
   display: flex;
@@ -75,6 +78,7 @@ header .search {
 }
 .searchBox.active {
   right: 0;
+  display: block;
 }
 .searchBox input {
   width: 100%;
@@ -723,6 +727,10 @@ line-height: 150%; /* 24px */
   margin-top: 50px;
   background-color: black;
   padding: 20px;
+  position: relative;
+  top: 80px;
+
+
 
   & .footerHead-textOne{
     color: #FFF;
@@ -738,6 +746,8 @@ line-height: 150%; /* 24px */
   margin-top: -61px;
   background-color: black;
   padding: 20px;
+  position: relative;
+  top: 80px;
 
   & .footerHead-textOne{
     color: #FFF;
@@ -856,14 +866,14 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     gap: 7rem;
-    padding: 60px 80px;
+    padding: 60px 0;
 
 }
 .sunroom-head-2-box{
     display: flex;
     flex-direction: column;
     gap: 7rem;
-    padding: 60px 80px;
+    padding: 60px 0;
 }
 .box-text-1{
     color: #333;
@@ -961,6 +971,7 @@ margin-left: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: .5s;
     
     & a{
       color: #333333;
@@ -968,6 +979,15 @@ margin-left: 1rem;
     
   }
 }
+// .buttonJs:hover{
+//         background-color: #070707;
+//         & a{
+//           color: white;
+//         }
+//         & svg{
+//           fill: white;
+//         }
+// }
 // ------SUNROOM.HTML-----END----
 
 // -------PROJECTDETAİL.HTML-----START---
@@ -1200,10 +1220,26 @@ line-height: 120%; /* 57.6px */
     justify-content: space-around;
     align-items: center;
     margin-top: 3rem;
+    transition: .5s;
     & a{
       color: #fff;
     }
   }
+}
+.pergola-head-3-btn svg{
+  fill: white;
+  transition: .5s;
+}
+
+.pergola-head-3-button:hover{
+  background: transparent;
+  & a{
+    color: black;
+}
+& svg{
+  fill: black;
+}
+
 }
 .pergola-head-4-img{
   width: 100%;
@@ -1238,7 +1274,7 @@ margin-bottom: 20px !important;
   }
 
   & button{
-    background: transparent;
+     background: transparent;
     border: 1px solid #333333;
     border-radius: 20px;
     height: 40px;
@@ -1246,6 +1282,8 @@ margin-bottom: 20px !important;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: 1s;
   }
 }
+
 // -------PERGOLA.HTML-----END----
