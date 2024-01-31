@@ -927,6 +927,7 @@ input::placeholder {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 15px;
 }
 .villages .villagesBoxTextOne {
   display: flex;
@@ -1139,4 +1140,87 @@ input::placeholder {
 
 .proje-footer {
   margin-top: -10px;
+}
+
+.pergola-head-1 {
+  position: relative;
+  top: 80px;
+}
+
+.pergola-head-2 {
+  position: relative;
+  top: 80px;
+}
+
+.pergola-head-4 {
+  position: relative;
+  top: 80px;
+}
+
+.pergola-head-3 {
+  position: relative;
+  top: 80px;
+  border-radius: 30px;
+  background: #F0F2F3;
+  padding: 100px 60px;
+}
+.pergola-head-3 h3 {
+  color: #171719;
+  font-family: "San Francisco";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 57.6px */
+}
+.pergola-head-3 .pergola-head-3-button {
+  background-color: #070707;
+  border: 1px solid #333333;
+  border-radius: 1000px;
+  height: 50px;
+  width: 36%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+.pergola-head-3 .pergola-head-3-button a {
+  color: #fff;
+}
+
+.pergola-head-4-img {
+  width: 100%;
+}
+.pergola-head-4-img img {
+  width: 100%;
+}
+
+.pergola-head-4-text {
+  padding: 20px;
+}
+.pergola-head-4-text h3 {
+  color: #333;
+  font-family: "San Francisco";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 32px */
+}
+.pergola-head-4-text p {
+  color: #333;
+  font-family: "San Francisco";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 30px */
+  margin-bottom: 20px !important;
+}
+.pergola-head-4-text button {
+  background: transparent;
+  border: 1px solid #333333;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
