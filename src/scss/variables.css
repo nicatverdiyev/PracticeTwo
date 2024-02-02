@@ -79,6 +79,9 @@
   .pergola-head-3 .pergola-head-3-button {
     width: 100%;
   }
+  .pergola-head-1-img img {
+    height: 100% !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .searchh.active {
@@ -132,7 +135,7 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    background-color: #78828B;
+    background-color: #ffffff;
     width: 100%;
     height: 55vh;
     padding: 40px;
@@ -141,6 +144,7 @@
   }
   header.open .navigation li a {
     font-size: 1.25em;
+    color: black;
   }
   .hide {
     display: none;

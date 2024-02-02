@@ -1287,3 +1287,41 @@ margin-bottom: 20px !important;
 }
 
 // -------PERGOLA.HTML-----END----
+
+
+// -------BLİNDS.HTML-----START----
+
+.blinds-head-4{
+  margin-top: 40px;
+  position: relative;
+  top: 80px;
+}
+
+
+.blinds-head-4-text{
+
+  & h3{
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  & p{
+    font-size: 1.5rem;
+  }
+
+}
+.blinds-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blinds-head-4-img img{
+  border-radius: 30px;
+  width: 100%;
+}
+// -------BLİNDS.HTML-----END----
+
+
+

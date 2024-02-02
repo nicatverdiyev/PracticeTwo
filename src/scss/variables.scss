@@ -90,6 +90,10 @@
       .pergola-head-3 .pergola-head-3-button{
         width: 100%;
       }
+
+      .pergola-head-1-img img{
+        height: 100% !important;
+      }
    
 }
 @media screen and (max-width:768px) {
@@ -145,15 +149,17 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    background-color: #78828B;
+    background-color: #ffffff;
     width: 100%;
     height: calc(100vh - 45vh);
     padding: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     transition: .6s;
+
   }
   header.open .navigation li a {
     font-size: 1.25em;
+    color: black;
   }
   .hide {
     display: none;
