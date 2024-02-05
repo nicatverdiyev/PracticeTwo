@@ -1323,5 +1323,70 @@ margin-bottom: 20px !important;
 }
 // -------BLİNDS.HTML-----END----
 
+// -------CONTACT.HTML-----START----
+
+  .contact-main{
+    position: relative;
+    top: 80px;
+    background-color:#F0F2F3;
+    padding: 40px;
+    border-radius: 60px;
+   
+    
+    & h2{
+
+      font-family: San Francisco;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 82.8px;
+    }
+
+    & .contact-main-one-text{
+      font-weight: 400;
+      font-family: San Francisco;
+      font-size: 1rem;
+      line-height: 23.2px;
+      margin-bottom: 4rem !important;
+    }
+
+    & h3{
+      font-family: San Francisco;
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 81.2px;
+      margin-bottom: 4rem !important;
+
+    }
+  }
+
+  .contact-main-two-text{
+    margin-right: 2rem;
+    color: black;
+  }
+
+  .contact-main-two{
+    & a{
+      font-family: San Francisco;
+      font-weight: 400px;
+      font-size: 32px;
+      line-height: 46.4px;
+      
+    }
+
+  }
+
+  .contact-map{
+    // padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    & iframe{
+    border-radius: 20px;
+
+    }
+  }
+// -------CONTACT.HTML-----END----
+
+
 
 
