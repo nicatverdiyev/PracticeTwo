@@ -1387,6 +1387,72 @@ margin-bottom: 20px !important;
   }
 // -------CONTACT.HTML-----END----
 
+// LOUVER--SECTİON---START---
+.louver-head-4{
+  position: relative;
+  top: 80px;
+}
+.louver-head-4-box-img{
+  width: 40rem;
+
+  & img{
+    width: 100%;
+    border-radius: 30px;
+
+  }
+}
+.louver-head-4-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  & h3{
+    margin-top: 1rem;
+    font-size: 32px;
+  }
+}
+.louver-head-4-box-text{
+  padding: 20px;
+}
+.louver-head-3-button{
+
+  background-color: #070707;
+  border: 1px solid #333333;
+  border-radius: 1000px;
+  height: 50px;
+  width: 36%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  transition: .5s;
+  & a{
+    color: #fff;
+  }
+}
+
+.louver-head-3-btn svg{
+fill: white;
+transition: .5s;
+}
+
+.louver-head-3-button:hover{
+background: transparent;
+& a{
+  color: black;
+}
+& svg{
+fill: black;
+}
+}
+// LOUVER--SECTİON---END---
+
 
 
 

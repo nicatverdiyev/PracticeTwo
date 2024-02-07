@@ -1326,4 +1326,67 @@ input::placeholder {
 }
 .contact-map iframe {
   border-radius: 20px;
+}
+
+.louver-head-4 {
+  position: relative;
+  top: 80px;
+}
+
+.louver-head-4-box-img {
+  width: 40rem;
+}
+.louver-head-4-box-img img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.louver-head-4-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.louver-head-4-box p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.louver-head-4-box h3 {
+  margin-top: 1rem;
+  font-size: 32px;
+}
+
+.louver-head-4-box-text {
+  padding: 20px;
+}
+
+.louver-head-3-button {
+  background-color: #070707;
+  border: 1px solid #333333;
+  border-radius: 1000px;
+  height: 50px;
+  width: 36%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  transition: 0.5s;
+}
+.louver-head-3-button a {
+  color: #fff;
+}
+
+.louver-head-3-btn svg {
+  fill: white;
+  transition: 0.5s;
+}
+
+.louver-head-3-button:hover {
+  background: transparent;
+}
+.louver-head-3-button:hover a {
+  color: black;
+}
+.louver-head-3-button:hover svg {
+  fill: black;
 }/*# sourceMappingURL=style.css.map */
