@@ -1389,4 +1389,20 @@ input::placeholder {
 }
 .louver-head-3-button:hover svg {
   fill: black;
+}
+
+.down-scroll svg {
+  fill: white;
+  transition: 0.5s;
+}
+
+.down-scroll svg:hover {
+  fill: black;
+}
+.down-scroll svg:hover path {
+  stroke: white;
+}
+
+.down-scroll path {
+  stroke: black;
 }/*# sourceMappingURL=style.css.map */

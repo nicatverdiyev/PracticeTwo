@@ -1452,6 +1452,19 @@ fill: black;
 }
 }
 // LOUVER--SECTİON---END---
+.down-scroll svg{
+  fill: white;
+  transition: .5s;
+}
+.down-scroll svg:hover{
+  fill: black;
+  & path{
+    stroke: white;
+  }
+}
+.down-scroll path{
+  stroke: black;
+}
 
 
 
