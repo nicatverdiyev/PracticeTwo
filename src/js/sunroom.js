@@ -8,7 +8,7 @@ let products = [
     },
     {
         "id":2,
-        "title":"Contemporary house with swimming pool",
+        "title":"Contemporary house",
         "place":"Portorose - Slovenia",
         "brand":"Bioclimatic Pergolas",
         "thumbnail":"https://juliasbali.com/wp-content/uploads/2016/07/villa-tjitrap-garden-view-entertainment-room.jpg"
@@ -16,7 +16,7 @@ let products = [
     },
     {
         "id":3,
-        "title":"Family house with garden",
+        "title":"Family house",
         "place":"Antibes - France",
         "brand":"Sloped Pergolas, Glass walls",
         "thumbnail":"https://t4.ftcdn.net/jpg/02/09/12/47/360_F_209124756_OQZUOTTFGBfygAGE5qzRzgRR5IHVq4y4.jpg"
@@ -32,7 +32,7 @@ let products = [
     },
     {
         "id":5,
-        "title":"Family house with garden",
+        "title":"Family house",
         "place":"Antibes - France",
         "brand":"Sloped Pergolas, Glass walls",
         "thumbnail":"https://i.pinimg.com/736x/dd/6d/8d/dd6d8ddd40d48f351f1481631da6ea0d.jpg"
@@ -40,7 +40,7 @@ let products = [
     },
     {
         "id":6,
-        "title":"Contemporary house with swimming pool",
+        "title":"Contemporary house",
         "place":"Slovenia",
         "brand":"Sloped Pergolas, Glass walls",
         "thumbnail":"https://cdn.trav3l.net/sapancakonaklamarehberi.com/files/hotels/276/image11-f.jpeg"
@@ -56,7 +56,7 @@ let products = [
     },
     {
         "id":8,
-        "title":"Contemporary house with swimming pool",
+        "title":"Contemporary house",
         "place":"Portorose - Slovenia",
         "brand":"Bioclimatic Pergolas",
         "thumbnail":"https://www.beyazhomes.com/wp-content/uploads/2023/02/1_resize.jpg"
@@ -64,7 +64,7 @@ let products = [
     },
     {
         "id":9,
-        "title":"Family house with garden",
+        "title":"Family house",
         "place":"Antibes - France",
         "brand":"Sloped Pergolas, Glass walls",
         "thumbnail":"https://www.beyazhomes.com/wp-content/uploads/2022/11/2.jpeg"

@@ -89,7 +89,7 @@
 @media screen and (max-width: 768px) {
   .searchh.active {
     width: 280px;
-    margin-left: 25px;
+    margin-left: 6px;
   }
   .footer-nav {
     display: none;
