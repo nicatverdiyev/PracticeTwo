@@ -124,6 +124,9 @@
         flex-direction: column;
         height: 340px;
       }
+      .section-1{
+        background-image: url(../../img/head22.png);
+      }
 }
 @media screen and (max-width: 992px) {
   header .navigation {
@@ -182,4 +185,13 @@
 .villagess{
   margin-left: 0;
 }
+// .section-1{
+//   background-image: url(../../img/head-126.png);
+// }
+}
+
+@media screen and (min-width:992px) {
+//    .section-1{
+//    background-image: url(../../img/head-126.png);
+//  }
 }

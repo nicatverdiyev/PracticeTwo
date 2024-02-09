@@ -198,6 +198,7 @@ line-height: 95%; /* 22.8px */
 }
 .section-1{
     height: 600px;
+    background-image: url(../../img/head.png);
 }
 // All Section Style
 .section{
@@ -268,6 +269,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 95%; /* 15.2px */
+margin-bottom: 10px !important;
 }
 .head-2-textTwo{
     color: #333;
@@ -276,6 +278,8 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: 125%; /* 40px */
+margin-bottom: 15px !important;
+
 }
 .head-2-textThree{
     color: #11A3FF;

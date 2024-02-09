@@ -111,6 +111,9 @@
     flex-direction: column;
     height: 340px;
   }
+  .section-1 {
+    background-image: url(../../img/head22.png);
+  }
 }
 @media screen and (max-width: 992px) {
   header .navigation {
